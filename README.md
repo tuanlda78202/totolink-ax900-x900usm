@@ -1,5 +1,8 @@
 # totolink ax900 x900usm linux driver
 
+![TOTOLINK](https://github.com/user-attachments/assets/81cd186a-665d-4513-8330-98189fd4655a)
+
+
 > [!NOTE]  
 > support ubuntu 24.04 (linux kernel 6.14)
 
@@ -32,7 +35,7 @@ cd /usr/src/rtl8851bu-0.2 && cd ./include
 cd ..
 ```
 
-5. update Makefile
+5. update makefile
 
 ```bash
 sudo vim Makefile
@@ -102,6 +105,6 @@ sudo rm -f /etc/modules-load.d/8851bu.conf
 sudo rm -rf /usr/src/rtl8851bu-0.2
 ```
 
-## refs
+## acks
 
 * [heesn/rtl8831](https://github.com/heesn/rtl8831)
