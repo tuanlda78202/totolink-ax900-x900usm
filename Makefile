@@ -36,7 +36,7 @@ EXTRA_CFLAGS += -Wno-date-time	# Fix compile error && warning on gcc 4.9 and lat
 endif
 
 src := $(dir $(lastword $(MAKEFILE_LIST)))
-EXTRA_CFLAGS += -I$(src)/include
+EXTRA_CFLAGS += -I/usr/src/rtl8851bu-0.2/include
 
 EXTRA_LDFLAGS += --strip-debug
 
